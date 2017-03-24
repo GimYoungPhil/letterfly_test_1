@@ -85,3 +85,72 @@
   <span>요</span>
 </div>
 ```
+
+## 예제3
+```html
+<div><span>안 </span>녕하세<span>요</span></div>
+```
+
+## 결과3
+```html
+<div>
+  <span>
+    <span>안</span>
+    <span> </span>
+  </span>
+  <span>녕</span>
+  <span>하</span>
+  <span>세</span>
+  <span>요</span>
+</div>
+```
+
+## 예제4
+```html
+<div><span>레</span><span> </span><span>터</span><span> </span><span>플</span><span> </span><span>라</span><span> </span><span>이</span></div>
+```
+
+## 결과4
+```html
+<div>
+  <span>레</span>
+  <span> </span>
+  <span>터</span>
+  <span> </span>
+  <span>플</span>
+  <span> </span>
+  <span>라</span>
+  <span> </span>
+  <span>이</span>
+</div>
+```
+
+## 예제5 (작동 X)
+```html
+<div>
+  <span>레</span>
+  <span> </span>
+  <span>터</span>
+  <span> </span>
+  <span>플</span>
+  <span> </span>
+  <span>라</span>
+  <span> </span>
+  <span>이</span>
+</div>
+```
+
+## 결과5
+```html
+<div>
+  <span>레</span>
+  <span> </span>
+  <span>터</span>
+  <span> </span>
+  <span>플</span>
+  <span> </span>
+  <span>라</span>
+  <span> </span>
+  <span>이</span>
+</div>
+```

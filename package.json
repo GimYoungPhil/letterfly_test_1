@@ -4,7 +4,7 @@
   "main": "index.js",
   "author": "GimYoungPhil <youngphil.gim@gmail.com>",
   "license": "MIT",
-  "script": {
+  "scripts": {
     "start": "python -m SimpleHTTPServer 8000"
   }
 }
