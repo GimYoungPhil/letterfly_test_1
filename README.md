@@ -46,6 +46,7 @@
 <div>봄이 왔어요</div>
 ```
 
+## 결과1
 ```html
 <div>
   <span>봄</span>
@@ -63,6 +64,7 @@
 <div><b>봄</b>이 왔어요</div>
 ```
 
+## 결과2
 ```html
 <div>
   <b>
@@ -81,6 +83,7 @@
 <div><span>봄</span><span>이</span> <span>왔</span><span>어</span><span>요</span></div>
 ```
 
+## 결과3
 ```html
 <div><span>봄</span><span>이</span> <span>왔</span><span>어</span><span>요</span></div>
 ```
