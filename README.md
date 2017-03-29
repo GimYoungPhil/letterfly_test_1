@@ -1,4 +1,4 @@
-# 테러플라이
+# test 1 - 글자색 변경
 
 ## 원문
 ```html
@@ -10,7 +10,7 @@
 <div><span style="color: rgb(243, 176, 119);">안</span><span style="color: rgb(42, 197, 105);">녕</span><span style="color: rgb(144, 145, 110);">하</span><span style="color: rgb(65, 187, 205);">세</span><span style="color: rgb(129, 117, 34);">요</span> <b><i><u><span style="color: rgb(24, 25, 205);">레</span> <span style="color: rgb(95, 140, 175);">터</span> <span style="color: rgb(23, 125, 21);">플</span> <span style="color: rgb(48, 55, 210);">라</span> <span style="color: rgb(91, 9, 186);">이</span></u></i></b> <span style="color: rgb(219, 44, 246);">입</span><span style="color: rgb(74, 87, 136);">니</span><span style="color: rgb(15, 246, 244);">다</span></div>
 ```
 
-## 결과 (style 속성생략, 공백 문자를 ' '로 표시함, '/n/t')
+## 결과 (style 속성생략, 공백 문자를 ' '로 표시함, '\n')
 ```html
 <div>
   <span>안</span>
